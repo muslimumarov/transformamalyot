@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+img {
+  display: block;
+}
+body {
+  font-family: "", "Arial", sans-serif;
+  font-weight: ;
+  background-image: url("");
+}
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+.site__main {
+  flex-grow: 1;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.parent {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 150px auto;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: url(./images/3840x.webp);
+  background-size: cover;
+  perspective: 1000px;
+}
+.child {
+  width: 300px;
+  height: 150px;
+  background-color: darkcyan;
+  transform-origin: top ;
+  transition: transform 0.5s ease;
+}
+.parent:hover .child  {
+  transform: rotateX(120deg);
+}
+.child2 {
+  width: 300px;
+  height: 150px;
+  background-color: darkcyan;
+  transform-origin: bottom ;
+  transition: transform 0.5s ease;
+}
+.parent:hover  .child2{
+  transform: rotateX(-120deg);
+}
+.parent2 {
+  display: flex;
+  margin: 150px auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(./images/x504.webp);
+  background-size: cover;
+  perspective: 1000px;
+  border: 2px solid black;
+}
+
+.child1 {
+  width: 150px;
+  height: 300px;
+  background-color: darkcyan;
+  transform-origin: left center;
+  transition: transform 0.5s ease;
+
+}
+.parent2:hover .child1 {
+  transform: rotateY(-120deg);
+
+}
+
+.child3 {
+  width: 150px;
+  height: 300px;
+  background-color: darkcyan;
+  transition: transform 0.5s ease;
+  transform-origin: right center;
+}
+
+
+.parent2:hover .child3 {
+  transform: rotateY(120deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* transform: translateX(150px) */
+/* transform: translateY(-150px); */
+/* transform: translateZ(50px); */
+/* transform: translate(500px , 200px); */
+/* transform: scale(2); */
+/* transform: rotateX(5deg); */
+/* transform: rotateY(1deg); */
+/* transform: rotateZ(3deg); */
+/* transform: skewY(0deg); */
+/* Header section finished */
+/* Main section started */
+/* Hero section started */
+
+/* Hero section finished */
+/* Section started */
+
+/* Section fininsed */
+/* Main section finished */
+/* Footer section started */
+
+/* Footer section finished */
